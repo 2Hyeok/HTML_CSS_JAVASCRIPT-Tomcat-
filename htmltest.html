@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML</title>
+	</head>
+	<body BACKGROUND="images/c.jpg">
+		<h2 align="center">HTML 연습</h2>
+		<center>
+		<font size="+1" color="red" face="궁서체">하나</font><br>
+		둘<br>
+		셋<br>
+		하나&nbsp;&nbsp;&nbsp;둘&nbsp;&nbsp;&nbsp;셋
+		<!-- 주석 -->
+		</center>
+		<hr size="5" noshade color="red" width="70%" align="left">
+		<br>
+		
+		<pre>
+		하나
+		둘
+		셋
+		</pre>
+		<ul>
+			<li>독서</li>
+			<li>등산</li>
+			<li>낚시</li>
+		</ul>
+		<br>
+		
+		<ol>
+			<li>짜장면</li>
+			<li>짬뽕</li>
+			<li>탕수육</li>
+		</ol>
+		<br>
+		<dl>
+			<dt>제목</dt>
+			<dt>내용</dt>
+		</dl>
+		
+		<img src="images/love.png" width="100" height="200">
+		<br>
+		<a href="http://www.daum.net">다음</a> <br>
+		<a href="http://www.naver.com">네이버</a> <br>
+		<br>
+		
+		<table border="1" align="center">
+			<tr>
+				<td width="150" height="50" colspan="3">1</td>
+			</tr>
+			
+			<tr align="center">
+				<td height="100" rowspan="2">4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			
+			<tr>
+				<td align="center">8</td>
+				<td>9</td>
+			</tr>
+		</table>
+		
+		<br>
+		<form name="inputform" method="post" action="">
+		이름 : <input type="text" name="name"><br>
+		비밀번호 : <input type="password" name="passwd"><br>
+		성별 : <input type="radio" name="gender" value="1">남자
+			 <input type="radio" name="gender" value="2">여자 <br>
+		취미 : <label><input type="checkbox" name="hobby" value="1"> 독서</label>
+			 <label><input type="checkbox" name="hobby" value="2"> 등산</label>
+			 <label><input type="checkbox" name="hobby" value="3"> 게임</label>
+			 <label><input type="checkbox" name="hobby" value="4">운동</label>
+			 <br>
+		주소 : <select name="address" size="7" multiple>
+				<option value="1">서울</option>
+				<option value="2">경기</option>
+				<option value="3">충청</option>
+				<option value="4">전라</option>
+				<option value="5">경상</option>
+				<option value="6">제주</option>
+			</select>
+			<br>
+			
+		자기소개 : <textarea name="intro" cols="40" rows="5"></textarea>
+		<br>
+		<br>
+		
+		<input type="button" value="확인"><br>
+		<input type="submit" value="전송"><br>
+		<input type="reset" value="취소"><br>
+		<input type="image" src="images/ok.png"><br>
+		<input type="file" value="파일"><br>
+		
+		</form>
+		
+	</body>
+</html>

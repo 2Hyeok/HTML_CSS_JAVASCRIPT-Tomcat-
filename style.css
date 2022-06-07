@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+	background : #FFA2A2;
+	color : red;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	font-weight: blod;
+	
+	background-image: url("images/love.png");
+	background-repeat: no-repeat;
+	background-position: 100px 50px;
+	background-attachment: fixed; /* 백그라운드 고정 */
+}
+
+h2 {
+	font-style: normal;
+	font-weight: normal;
+}
+
+p {/*
+	text-align: center;
+	text-decoration: underline overline line-through;
+	*/
+	text-indent: 10px;
+	/* text-shadow: -2px 5px gray; */
+	line-height: 80px;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	
+	clear : left;
+}
+
+a {
+	text-decoration: none;
+	color = red;
+}
+
+a:visited {
+	color : purple;
+}
+
+a:hover, a:active{
+	color:white;
+}
+
+ul {
+	list-style-type: upper-roman;
+}
+
+#first {
+	color : yellow;
+}
+
+span#second {
+	color:green;
+}
+
+.point {
+	color : blue;
+}
+
+span#second.point {
+	color : blue;
+}
+
+span.strong {
+	color : cyan;
+}
+
+b a {    /*후손 선택자*/
+	color : fire;
+}
+
+b > a {    /*자식 선택자*/
+	color : gold;
+}
+
+div {
+	border : gray 2px solid;
+	border-color : red yello green blue;
+	border-color : red blue;
+	border-color : blue;
+	border-top-color : red;
+	border-bottom-color: blue;
+	border-left-color: yellow;
+	border-right-color: green;
+	
+	border-width : 5px;
+	border-style: double dotted;
+	
+	margin : 10px 5px;
+	padding : 10px 5px;
+	width : 200px;
+	height : 100px;
+	
+	float : left;
+}
