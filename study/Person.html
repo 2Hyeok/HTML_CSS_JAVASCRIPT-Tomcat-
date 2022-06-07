@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Servlet</title>
+	</head>
+	<body>
+		<h2>Servlet 폼 데이터 처리</h2>
+		<form method="post" action="http://localhost:8080/JSP/person">
+			<table border="1">
+				<tr>
+					<th>이름</th>
+					<td> <input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<th>나이</th>
+					<td><input type="text" name="age"></td>
+				</tr>
+				<tr>
+					<th>성별</th>
+					<td>
+						<input type="radio" name="gender" value="1">남자
+						<input type="radio" name="gender" value="2">여자
+					</td>
+				</tr>
+				<tr>
+					<th>취미</th>
+					<td>
+						<input type="checkbox" name="hobby" value="1">독서
+						<input type="checkbox" name="hobby" value="2">등산
+						<input type="checkbox" name="hobby" value="3">운동
+						<input type="checkbox" name="hobby" value="4">게임
+					</td>
+				</tr>
+				<tr>
+					<th colspan="2">
+						<input type="submit" value="전송">
+						<input type="reset" value="취소">
+					</th>
+				</tr>
+			</table>		
+		</form>
+	</body>
+</html>
