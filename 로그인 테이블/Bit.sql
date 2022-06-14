@@ -1,4 +1,4 @@
-/* °Ô½ÃÆÇ Å×ÀÌºí »ı¼º*/
+/* ê²Œì‹œíŒ í…Œì´ë¸” ìƒì„±*/
   create table board(
       num number primary key,
       writer varchar2(30) not null,
@@ -14,7 +14,7 @@
       ip varchar2(20) not null
    );
    
-/* ½ÃÄö½º »ı¼º */
+/* ì‹œí€€ìŠ¤ ìƒì„± */
 CREATE SEQUENCE board_seq
            INCREMENT BY 1
            START WITH   1
@@ -26,7 +26,7 @@ select board_seq.NEXTVAL from dual;
 select board_seq.currval from dual; 
 
 select * from user_sequences;
-/*Áõ°¡ÇÑ °ªÀº ´Ù½Ã °¨¼Ò½ÃÅ³ ¼ö ¾øÀ½*/
+/*ì¦ê°€í•œ ê°’ì€ ë‹¤ì‹œ ê°ì†Œì‹œí‚¬ ìˆ˜ ì—†ìŒ*/
 
 /**/
 select count(*) from board;
