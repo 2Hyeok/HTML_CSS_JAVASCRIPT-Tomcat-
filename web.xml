@@ -46,4 +46,17 @@
   	<error-code>500</error-code>
   	<location>/error/500code.jsp</location>
   </error-page>
+  
+  <servlet>
+  	<servlet-name>SimpleController</servlet-name>
+  	<servlet-class>mvc.SimpleController</servlet-class>
+  	<init-param>
+  		<param-name>configFile</param-name>
+  		<param-value>WEB-INF/handler.properties</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SimpleController</servlet-name>
+  	<url-pattern>*.do</url-pattern>
+  </servlet-mapping>
 </web-app>
