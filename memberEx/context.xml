@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+   <Resource name="jdbc/bit"
+      auth="Container"                  
+      type="javax.sql.DataSource"            
+      driverClassName="oracle.jdbc.driver.OracleDriver"
+      loginTimeout="10"      
+      maxWait="5000"
+      username="bit"
+      password="bit"
+      testOnBorrow="true"
+      url="jdbc:oracle:thin:@localhost:1521:xe"/>
+</context>
