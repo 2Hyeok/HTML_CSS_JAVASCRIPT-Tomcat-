@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<members>
+	<member>
+		<name>홍길동</name>
+		<age>30</age>
+		<tel>1111-2222</tel>
+	</member>
+	<member>
+		<name>이순신</name>
+		<age>20</age>
+		<tel>2222-2222</tel>
+	</member>
+	<member>
+		<name>김유신</name>
+		<age>20</age>
+		<tel>2222-1111</tel>
+	</member>
+</members>
